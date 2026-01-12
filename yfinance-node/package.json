@@ -1,0 +1,35 @@
+{
+  "name": "yfinance",
+  "version": "1.0.0",
+  "description": "Download market data from Yahoo! Finance API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "lint": "eslint src/",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "yahoo",
+    "finance",
+    "stock",
+    "market",
+    "data",
+    "api",
+    "typescript"
+  ],
+  "author": "Ran Aroussi",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ranaroussi/yfinance"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

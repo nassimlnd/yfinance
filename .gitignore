@@ -1,5 +1,7 @@
 __pycache__/*
 yfinance/__pycache__/*
+yfinance-py/__pycache__/*
+yfinance-py/yfinance/__pycache__/*
 dist
 yfinance.egg-info
 *.pyc
@@ -10,6 +12,12 @@ build/
 *.html
 *.css
 test.ipynb
+
+# Node.js
+node_modules/
+yfinance-node/node_modules/
+yfinance-node/dist/
+*.log
 
 # Environments
 .env
